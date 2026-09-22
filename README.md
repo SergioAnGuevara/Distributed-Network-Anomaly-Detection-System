@@ -83,7 +83,7 @@ Metrics below are from **batch evaluation on the held-out test set**, run on the
 
 The headline accuracy numbers look strong but are misleading on their own: CIC-IDS2017 is heavily imbalanced toward benign traffic, so a model can score well on accuracy and weighted F1 while performing poorly on the minority (attack) classes that actually matter for intrusion detection. The macro-averaged metrics, which weight every class equally regardless of frequency  tell the more honest story: Random Forest's macro F1 of 0.49 reflects real difficulty generalizing to rarer or unseen attack types.
 
-KMeans, evaluated as a standalone anomaly detector, currently underperforms: an AUC-ROC of 0.653 is only modestly better than chance, and its recall (~1%) indicates it is not effectively separating attacks from benign traffic using distance-to-centroid alone. This is a genuine limitation of the current approach, not a hidden one, see [[#Limitations & Future Work]] below for how this could be improved.
+KMeans, evaluated as a standalone anomaly detector, currently underperforms: an AUC-ROC of 0.653 is only modestly better than chance, and its recall (~1%) indicates it is not effectively separating attacks from benign traffic using distance-to-centroid alone. This is a genuine limitation of the current approach, not a hidden one, see *Limitations & Future Work* below for how this could be improved.
 
 ---
 
