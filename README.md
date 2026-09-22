@@ -262,3 +262,7 @@ ssh -i <key.pem> \
 ```
 ---
 
+## Authors
+Sergio Andres Guevara Ramirez 
+Samuel David Rojas Cardenas
+
