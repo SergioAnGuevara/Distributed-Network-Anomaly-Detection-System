@@ -2,7 +2,7 @@
 
 A distributed, near real-time network intrusion detection system built entirely on AWS — from training and validation to live streaming inference.
 
-> Big Data course project — Universidad del Rosario, Bogotá, Colombia
+> Big Data course project — Universidad del Rosario, Bogotá, Colombia (Authors: Sergio Andres Guevara, Samuel David Rojas)
 
 ---
 
